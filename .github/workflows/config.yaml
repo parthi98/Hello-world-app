@@ -1,0 +1,11 @@
+name: Hello_World
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  job1:
+    runs-on: ubuntu:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run python hello.py
