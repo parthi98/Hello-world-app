@@ -1,13 +1,13 @@
-name: Hello_World
-on: 
-  push:
-    branches:
-      - main
-  #workflow_dispatch:
+# name: Hello_World
+# on: 
+#   push:
+#     branches:
+#       - main
+#   #workflow_dispatch:
     
-jobs:
-  job1:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: python hello.py
+# jobs:
+#   job1:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - run: python hello.py
