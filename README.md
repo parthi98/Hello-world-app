@@ -47,6 +47,7 @@ Step 4: Expose the Sample Application via a Load Balancer and Jenkins
   Optionally, I configure firewall rules to allow incoming traffic on the desired ports (e.g., 80 and 443 and 22).
  
  4. Conclusion
+
 In this document I provides an overview of our architecture and deployment steps for creating a private CloudSQL DB, a private GCE instance with SQL Auth Proxy, establishing a CI/CD pipeline, and exposing the sample application via a load balancer, Jenjins. By following these steps, I can set up a secure and scalable environment for Our application deployment.
 
 PLEASE REFER THE SCREENSHOTS ON THE IMAGE FOLDER!!!
